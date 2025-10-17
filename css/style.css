@@ -8,7 +8,11 @@ root {
 
 }
 
-.img-biblioteca{
-    height: 130px;
-    object-fit: cover;
+/* Efecto para la 2da versiòn */
+.card img {
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.08);
 }
