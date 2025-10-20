@@ -7,29 +7,9 @@ root {
     --reboto: "Reboto";
 
 }
-<<<<<<< HEAD
 
-/* Efecto para la 2da versiòn */
-.card img {
-  transition: transform 0.3s;
-}
-
-.card:hover img {
-  transform: scale(1.08);
-}
-=======
-.card img {
+.img-cardsMusica {
   width: 100%;
-  height: 200px;   
-  object-fit: cover; 
-  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
 }
-
-.airbag-img {
-    background-image: url(../assets/img/airbagbanner.webp);
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    background-position: top;
-}
->>>>>>> c33b4424ebd3893543c4983d8d01bac80c1634f6
