@@ -58,3 +58,11 @@ root {
   background-repeat: no-repeat;  /* evita que se repita */
   background-size: cover; 
 }
+.miranda-img {
+    width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/miranda-grande.jpg");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover; 
+}
