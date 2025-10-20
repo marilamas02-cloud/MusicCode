@@ -59,7 +59,7 @@ root {
   background-size: cover; 
 }
 .miranda-img {
-    width: 100%;           /* ocupa todo el ancho disponible */
+  width: 100%;           /* ocupa todo el ancho disponible */
   height: 600px;         /* alto que quieras darle */
   background-image: url("../assets/img/miranda-grande.jpg");
   background-position: top;   /* centra la imagen */
@@ -67,7 +67,7 @@ root {
   background-size: cover; 
 }
 .luckra-img {
-    width: 100%;           /* ocupa todo el ancho disponible */
+  width: 100%;           /* ocupa todo el ancho disponible */
   height: 600px;         /* alto que quieras darle */
   background-image: url("../assets/img/luck-ra-2074626.jpg");
   background-position: top;   /* centra la imagen */
@@ -75,10 +75,18 @@ root {
   background-size: cover; 
 }
 .lucianoPereyra-img {
-    width: 100%;           /* ocupa todo el ancho disponible */
+  width: 100%;           /* ocupa todo el ancho disponible */
   height: 600px;         /* alto que quieras darle */
   background-image: url("../assets/img/Fondo_Luciano2025.jpg");
   background-position: center;   /* centra la imagen */
   background-repeat: no-repeat;  /* evita que se repita */
   background-size: cover; 
+}
+.sodaStereo-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/sodaStereo.jpg");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;
 }
