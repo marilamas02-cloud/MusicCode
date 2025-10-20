@@ -8,18 +8,12 @@ root {
 
 }
 
-.card img {
-  transition: transform 0.3s;
-}
-
-.card:hover img {
-  transform: scale(1.08);
-}
-.detalleProducto {
+.img-cardsMusica {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
+<<<<<<< HEAD
 .abel-img {
  
 
@@ -134,3 +128,5 @@ footer a:hover {
   text-decoration: underline;
   color: #008d00;
 }
+=======
+>>>>>>> ebfe69c9156d050c0f60ff486752c0da60b89eaa
