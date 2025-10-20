@@ -13,11 +13,117 @@ root {
   height: 200px;
   object-fit: cover;
 }
-.airbag-img {
-  width: 100%;          
-  height: 600px;        
-  background-image: url("../assets/img/airbagbanner.webp");
-  background-position: top;  
-  background-repeat: no-repeat; 
+.abel-img {
+ 
+
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/abel-pintosjpg.webp");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;        /* cubre todo el contenedor */
+}
+.lali-img {
+ 
+
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/lali.avif");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;        /* cubre todo el contenedor */
+}
+
+.joaqui-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/lajoaqui.avif");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
   background-size: cover; 
+}
+
+.konga-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/Konga.jpg");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover; 
+}
+.miranda-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/miranda-grande.jpg");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover; 
+}
+.luckra-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/luck-ra-2074626.jpg");
+  background-position: top;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover; 
+}
+.lucianoPereyra-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/Fondo_Luciano2025.jpg");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover; 
+}
+.sodaStereo-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/sodaStereo.jpg");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;
+}
+.tini-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/tini.jpg");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;
+}
+.tanBionica-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/tanBionica.png");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;
+}
+.sole-img {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  height: 600px;         /* alto que quieras darle */
+  background-image: url("../assets/img/soledad-pastorutti-2049830.jpg");
+  background-position: center;   /* centra la imagen */
+  background-repeat: no-repeat;  /* evita que se repita */
+  background-size: cover;
+}
+
+.social-icons i {
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #008d00;
+}
+
+footer a {
+  text-decoration: none; 
+  color: #fff; 
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #008d00;
 }
