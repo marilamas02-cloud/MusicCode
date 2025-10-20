@@ -7,6 +7,17 @@ root {
     --reboto: "Reboto";
 
 }
+<<<<<<< HEAD
+
+/* Efecto para la 2da versiòn */
+.card img {
+  transition: transform 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+=======
 .card img {
   width: 100%;
   height: 200px;   
@@ -21,3 +32,4 @@ root {
     object-fit: cover;
     background-position: top;
 }
+>>>>>>> c33b4424ebd3893543c4983d8d01bac80c1634f6
