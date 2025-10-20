@@ -114,3 +114,23 @@ root {
   background-repeat: no-repeat;  /* evita que se repita */
   background-size: cover;
 }
+
+.social-icons i {
+  color: white;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #008d00;
+}
+
+footer a {
+  text-decoration: none; 
+  color: #fff; 
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #008d00;
+}
