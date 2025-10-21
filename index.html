@@ -27,141 +27,322 @@
     <link rel="icon" href="favicon.icon" type="image/x-icon" />
   </head>
   <body>
-    <header></header>
-<main>
-    <section class="cardsMusica">
-      <h1 class="p-5">Artistas más escuchados</h1>
-      <div
-        class="container d-flex flex-wrap justify-content-center align-items-center gap-4 p-5"
-      >
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/abelPintos.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MusicCode</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/login.html">Iniciar sesión</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Buscar
+              </button>
+            </form>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/lali.avif"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+      </nav>
+
+        <section class="container bg-dark rounded pt-3 my-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/abelPintos.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/abelPintos.jpg"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Abel Pintos"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Abel Pintos</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/Airbag.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/airbag_2025.jpg"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Airbag"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Airbag</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/konga.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/Konga.jpg"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="La Konga"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">La Konga</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/lali.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/lali.avif"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Lali"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Lali</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/lucianoPereyra.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/lucianoPereyra.jpg"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="lucianoPereyra"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Luciano Pereyra</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/luckra.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/luckra.webp"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Luckra"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Luckra</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/miranda.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/Miranda-Ramasso-Productora-1.webp"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Miranda"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Miranda</h6>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+            <a class="text-decoration-none" href="./detalleProducto/tini.html"><div class="card flex-row align-items-center p-2">
+              <img
+                src="./assets/img/tini.jpg"
+                class="img-fluid rounded"
+                style="width: 70px; height: 70px"
+                alt="Tini"
+              />
+              <div class="card-body p-2">
+                <h6 class="card-title mb-0">Tini</h6>
+              </div>
+            </div>
+            </a>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/joaqui.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+      </section>
+     
+    </header>
+    <main>
+      <section class="cardsMusica">
+        <h1 class="p-5">Artistas más escuchados</h1>
+        <div
+          class="container d-flex flex-wrap justify-content-center align-items-center gap-4 p-5"
+        >
+          <a class="text-decoration-none" href="./detalleProducto/abelPintos.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/abelPintos.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="abelPintos"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Abel Pintos</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/tanBionica.png"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+
+          <a class="text-decoration-none" href="./detalleProducto/lali.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/lali.avif"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="lali"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Lali</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/lucianoPereyra.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/joaqui.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/joaqui.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="joaqui"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">La Joaqui</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/Miranda-Ramasso-Productora-1.webp"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/tanBionica.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/tanBionica.png"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="tanBionica"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Tan Bionica</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/luckra.webp"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/lucianoPereyra.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/lucianoPereyra.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="lucianoPereyra"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Luciano Pereyra</p>
+            </div>
+          </div></a>
+          <a class="text-decoration-none" href="./detalleProducto/miranda.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/Miranda-Ramasso-Productora-1.webp"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="miranda"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Miranda</p>
+            </div>
+          </div></a>
+          <a class="text-decoration-none" href="./detalleProducto/luckra.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/luckra.webp"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="luckra"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Luckra</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/sodaStereo.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/sodaStereo.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/sodaStereo.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="sodaStereo"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Soda Stereo</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/images.jpeg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/sole.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/images.jpeg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="soledad"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Soledad</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/tini.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/tini.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/tini.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="tini"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Tini</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/Konga.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/konga.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/Konga.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="konga"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">La Konga</p>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="./assets/img/airbag_2025.jpg"
-            class="card-img-top img-fluid img-cardsMusica"
-            alt="abelPintos"
-          />
-          <div class="card-body">
-            <p class="card-text text-center fw-bold">Abel Pintos</p>
+          </a>
+          <a class="text-decoration-none" href="./detalleProducto/Airbag.html"><div class="card" style="width: 18rem">
+            <img
+              src="./assets/img/airbag_2025.jpg"
+              class="card-img-top img-fluid img-cardsMusica"
+              alt="airbag"
+            />
+            <div class="card-body">
+              <p class="card-text text-center fw-bold">Airbag</p>
+            </div>
           </div>
+          </a>
         </div>
-      </div>
-    </section>
-  
- <footer>
+      </section>
+    </main>
+    <footer>
       <div class="container">
         <div class="row text-center text-md-start">
-          <div class="col-md-3 mb-4 mb-md-0">
-          </div>
+          <div class="col-md-3 mb-4 mb-md-0"></div>
 
           <div class="col-md-2 mb-4">
             <h5 class="footer-title">Compañía</h5>
@@ -202,7 +383,7 @@
           </div>
         </div>
 
-        <div class="footer-bottom text-center text-md-start mt-4">
+        <div class="footer-bottom text-center text-md-start mt-4 p-5">
           <div class="row align-items-center">
             <div class="col-md-6">© 2025 MusicCode AB</div>
             <div class="col-md-6 text-md-end">
@@ -214,6 +395,6 @@
           </div>
         </div>
       </div>
-    </footer>  
+    </footer>
   </body>
 </html>
