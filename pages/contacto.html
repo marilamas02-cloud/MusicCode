@@ -1,51 +1,201 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulario de Contacto</title>
- 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Streaming sobre musica" />
+    <meta
+      name="keywords"
+      content="musica, genero, rock, trap, pop, cumbia, cuarteto"
+    />
+    <meta
+      name="author"
+      content="Marisol Lamas, Ornella Ricobelli, Abel Ruiz, Mauro Seu"
+    />
+    <title>MusicCode</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="favicon.icon" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">MusicCode</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card shadow-lg rounded-4">
-          <div class="card-body p-4">
-            <h3 class="text-center mb-4">Contacto</h3>
-            
-            <form action="">
-           
-              <div class="mb-3">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
-              </div>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/login.html">Iniciar sesión</a>
+              </li>
+            </ul>
 
-              <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
-              </div>
-
-          
-              <div class="mb-3">
-                <label for="message" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
-              </div>
-
-              
-              <div class="d-grid">
-                <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
-              </div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Buscar
+              </button>
             </form>
+          </div>
+        </div>
+      </nav>
 
+    </header>
+    <main
+      class="bg-dark d-flex align-items-center justify-content-center vh-100"
+    >
+      <section class="contacto w-100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="card shadow-lg rounded-4">
+                <div class="card-body p-4">
+                  <h3 class="text-center mb-4">Contacto</h3>
+
+                  <form action="">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nombre</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Tu nombre"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Correo electrónico</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="tucorreo@ejemplo.com"
+                        required
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Mensaje</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Escribe tu mensaje aquí..."
+                        required
+                      ></textarea>
+                    </div>
+
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-danger btn-lg">
+                        Enviar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 mb-4 mb-md-0"></div>
+
+          <div class="col-md-2 mb-4">
+            <h5 class="footer-title">Compañía</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Acerca de</a></li>
+              <li><a href="#">Empleo</a></li>
+              <li><a href="#">For the Record</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 mb-4">
+            <h5 class="footer-title">Comunidades</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Para artistas</a></li>
+              <li><a href="#">Desarrolladores</a></li>
+              <li><a href="#">Publicidad</a></li>
+              <li><a href="#">Inversionistas</a></li>
+              <li><a href="#">Proveedores</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 mb-4">
+            <h5 class="footer-title">Enlaces útiles</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Ayuda</a></li>
+              <li><a href="#">App móvil gratis</a></li>
+              <li><a href="#">Planes Premium</a></li>
+              <li><a href="#">Privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 text-center text-md-end">
+            <div class="social-icons fs-4">
+              <i class="bi bi-instagram me-3"></i>
+              <i class="bi bi-twitter-x me-3"></i>
+              <i class="bi bi-facebook"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center text-md-start mt-4 p-5">
+          <div class="row align-items-center">
+            <div class="col-md-6">© 2025 MusicCode AB</div>
+            <div class="col-md-6 text-md-end">
+              <a href="#" class="me-3">Legal</a>
+              <a href="#" class="me-3">Centro de privacidad</a>
+              <a href="#" class="me-3">Política de cookies</a>
+              <a href="#">Sobre los anuncios</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
