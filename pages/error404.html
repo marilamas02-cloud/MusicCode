@@ -19,11 +19,16 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="favicon.icon" type="image/x-icon" />
   </head>
-  <body>
-     <header>
+
+ <body>
+    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">MusicCode</a>
@@ -69,77 +74,21 @@
           </div>
         </div>
       </nav>
+
     </header>
-    <main>
-      <section class="airbag">
-        <div class="joaqui-img"></div>
-
-        <iframe
-          data-testid="embed-iframe"
-          style="border-radius: 12px"
-          src="https://open.spotify.com/embed/artist/60XHOAhvEBiV6BGBOv8ClM?utm_source=generator&theme=0"
-          width="100%"
-          height="352"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-      </section>
-
-      <section class="cardsMusica">
-        <h2 class="p-5">Sugerencias</h2>
-        <div
-          class="container d-flex flex-wrap justify-content-center align-items-center gap-4 p-5"
-        >
-          <a class="text-decoration-none" href="./sole.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/images.jpeg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="soledad"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Soledad</p>
-            </div>
-          </div>
-          </a>
-          <a class="text-decoration-none" href="./lali.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/lali.avif"
-              class="card-img-top img-fluid detalleProducto"
-              alt="lali"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Lali</p>
-            </div>
-          </div>
-          </a>
-          <a class="text-decoration-none" href="./tini.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/tini.jpg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="tini"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Tini</p>
-            </div>
-          </div>
-          </a>
-          <a class="text-decoration-none" href="./lucianoPereyra.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/lucianoPereyra.jpg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="lucianoPereyra"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Luciano Pereyra</p>
-            </div>
-          </div>
-          </a>
-        </div>
-      </section>
-    </main>
-    <footer>
+    <main class="d-flex flex-column justify-content-center align-items-center text-center vh-100">
+  <div>
+    <h2 class="display-1 fw-bold text-danger">404</h2>
+    <h3 class="mb-3">Página no encontrada</h3>
+    <p class="lead mb-4">
+      Lo sentimos, la página que estás buscando no existe o fue movida.
+    </p>
+    <a href="../index.html" class="btn btn-outline-light btn-lg">
+      <i class="bi bi-house-door me-2"></i> Volver al inicio
+    </a>
+  </div>
+</main>
+<footer>
       <div class="container">
         <div class="row text-center text-md-start">
           <div class="col-md-3 mb-4 mb-md-0"></div>
@@ -196,6 +145,8 @@
         </div>
       </div>
     </footer>
+    
+ </body>         
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

@@ -19,11 +19,16 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="favicon.icon" type="image/x-icon" />
   </head>
-  <body>
-     <header>
+
+ <body>
+    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">MusicCode</a>
@@ -69,75 +74,107 @@
           </div>
         </div>
       </nav>
+
     </header>
-    <main>
-      <section class="airbag">
-        <div class="joaqui-img"></div>
+     <main>
+        <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card shadow-lg rounded-4">
+              <div class="card-body p-4">
+                <h2 class="text-center mb-4 text-secundario">
+                  Registro de Usuario
+                </h2>
 
-        <iframe
-          data-testid="embed-iframe"
-          style="border-radius: 12px"
-          src="https://open.spotify.com/embed/artist/60XHOAhvEBiV6BGBOv8ClM?utm_source=generator&theme=0"
-          width="100%"
-          height="352"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-      </section>
+                <form>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label"
+                      >Nombre completo</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      placeholder="Tu nombre"
+                      required
+                    />
+                  </div>
 
-      <section class="cardsMusica">
-        <h2 class="p-5">Sugerencias</h2>
-        <div
-          class="container d-flex flex-wrap justify-content-center align-items-center gap-4 p-5"
-        >
-          <a class="text-decoration-none" href="./sole.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/images.jpeg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="soledad"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Soledad</p>
+                  <div class="mb-3">
+                    <label for="email" class="form-label"
+                      >Correo electrónico</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="ejemplo@correo.com"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Crea una contraseña"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="confirmPassword" class="form-label"
+                      >Confirmar contraseña</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="confirmPassword"
+                      placeholder="Repite la contraseña"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="fechaNacimiento" class="form-label"
+                      >Fecha de nacimiento</label
+                    >
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="fechaNacimiento"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-check mb-3">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="terminos"
+                      required
+                    />
+                    <label class="form-check-label" for="terminos">
+                      Acepto los <a href="../pages/error404.html">términos y condiciones</a>
+                    </label>
+                  </div>
+
+                  <button type="submit" class="btn btn-danger w-100">
+                    Registrarme
+                  </button>
+                </form>
+
+                <p class="text-center mt-3">
+                  ¿Ya tienes cuenta?
+                  <a href="./error404.html">Inicia sesión</a>
+                </p>
+              </div>
             </div>
           </div>
-          </a>
-          <a class="text-decoration-none" href="./lali.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/lali.avif"
-              class="card-img-top img-fluid detalleProducto"
-              alt="lali"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Lali</p>
-            </div>
-          </div>
-          </a>
-          <a class="text-decoration-none" href="./tini.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/tini.jpg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="tini"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Tini</p>
-            </div>
-          </div>
-          </a>
-          <a class="text-decoration-none" href="./lucianoPereyra.html"><div class="card" style="width: 18rem">
-            <img
-              src="../assets/img/lucianoPereyra.jpg"
-              class="card-img-top img-fluid detalleProducto"
-              alt="lucianoPereyra"
-            />
-            <div class="card-body">
-              <p class="card-text text-center fw-bold">Luciano Pereyra</p>
-            </div>
-          </div>
-          </a>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <div class="container">
@@ -195,7 +232,8 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> 
+ </body>         
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
